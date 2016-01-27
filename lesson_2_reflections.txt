@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+when we initialize a repository, it creates a repo with no initial commits. It is need to be done to keep in track of the files in fututre.
