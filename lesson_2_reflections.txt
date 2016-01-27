@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 when we initialize a repository, it creates a repo with no initial commits. It is need to be done to keep in track of the files in fututre.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It acts as an intermediate between working directory and repository. It offers us a chance to add some small small changes without committing the whole code at once which we can do it later after making all changes in the staging area.
