@@ -3,3 +3,21 @@ when we initialize a repository, it creates a repo with no initial commits. It i
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It acts as an intermediate between working directory and repository. It offers us a chance to add some small small changes without committing the whole code at once which we can do it later after making all changes in the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+By using the command git diff --staged, we can make sure of having one commit per local change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+It helps to make changes in other branch without any change in main code so that if anyhting goes wrong , our earlier version is safe and sound. Also, many people may have different tasks or changes to do in same master branch, so branching is necessary to avoid any merge conflicts while doing your testing.
+
+How do the diagrams help you visualize the branch structure?
+It gives us a clear view of parents of each commit in the branches which gives us a cler idea which commit can be reached by another commit or not.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+it makes all the change made in two branches get merged into a single branch so that all the changes can be accessed from a single branch.
+To understand the concept of branching better, we represent it in a diagram way.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros : Changes made by different users for different tasks are merged auomatically.
+
+cons : If change is made in same line of code by two users, it cannot decide which change is right and merge it automatically.
